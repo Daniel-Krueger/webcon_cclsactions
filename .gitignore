@@ -1,0 +1,21 @@
+/.vs/*
+**/bin/*
+**/obj/**
+*.csproj.user
+/packages/*
+/Publish/**
+**/node_modules/**
+**/dist/**
+**/package/**
+**/Publish/**
+**/Publish/**
+**/.vs/Authentication/v16/.suo
+**/packages/**
+**/v16/*
+/BC/*/.alpackages/*
+/BC/*/.vscode/*/*
+BC/*/*.app
+/BC/External_Traffic_To_Local_BC_Container/LocalToContainer_ReverseProxy/logs/*
+/Azure WebApps/DC-CloudSignatureProt/.vs/DC-CloudSignatureProt/config/applicationhost.config
+/Azure WebApps/DC-CloudSignatureProt/.vs/DC-CloudSignatureProt/DesignTimeBuild/.dtbcache.v2
+/**/MigrationBackup/*

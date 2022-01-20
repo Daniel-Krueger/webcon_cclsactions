@@ -1,0 +1,26 @@
+[
+  {
+    "Guid": "c78c3284-244f-445e-abc4-6ea9ebabd63e",
+    "Name": "UpdateDocumentType",
+    "Description": "Updates the document type of a workflow instance to a new one.",
+    "Assembly": "CCLSActions",
+    "Class": "CCLSActions.UpdateDocumentType.UpdateDocumentType",
+    "Type": "CustomAction"
+  },
+  {
+    "Guid": "bc2f0f0f-f043-43dc-91d5-2d4cb225487a",
+    "Name": "AddRowToItemList",
+    "Description": "Adds a row to an item list of a different workflow.\r\n",
+    "Assembly": "CCLSActions",
+    "Class": "CCLSActions.AddRowToItemList",
+    "Type": "CustomAction"
+  },
+  {
+    "Guid": "29085c91-f20d-4e00-b422-1ca2def3af47",
+    "Name": "GetUrlValue",
+    "Description": "Returns a part of the url.",
+    "Assembly": "CCLSActions",
+    "Class": "CCLSActions.GetQueryParameter",
+    "Type": "CustomBusinessRule"
+  }
+]

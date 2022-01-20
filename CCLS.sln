@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCLSActions", "CCLSActions\CCLSActions.csproj", "{712B56A6-7BA8-4E45-B0F8-A1EAC8B6C925}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{712B56A6-7BA8-4E45-B0F8-A1EAC8B6C925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712B56A6-7BA8-4E45-B0F8-A1EAC8B6C925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712B56A6-7BA8-4E45-B0F8-A1EAC8B6C925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712B56A6-7BA8-4E45-B0F8-A1EAC8B6C925}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC2C389D-20C1-4026-9ED6-50A3E6A98B0C}
+	EndGlobalSection
+EndGlobal
