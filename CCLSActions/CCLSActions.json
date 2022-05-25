@@ -1,5 +1,13 @@
 [
   {
+    "Guid": "12e707a6-64c8-419e-ac30-bcbe5fa97681",
+    "Name": "RemoveItemListRows",
+    "Description": "Removes the specified item list rows while the other item list rows are kept. The DET_ID won't change so that the history can be used. The replace values action will delete all rows and add new ones instead.",
+    "Assembly": "CCLSActions",
+    "Class": "CCLSActions.RemoveItemListRows.RemoveItemListRows",
+    "Type": "CustomAction"
+  },
+  {
     "Guid": "c78c3284-244f-445e-abc4-6ea9ebabd63e",
     "Name": "UpdateDocumentType",
     "Description": "Updates the document type of a workflow instance to a new one.",

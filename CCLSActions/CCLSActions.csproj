@@ -112,6 +112,8 @@
     <Compile Include="GetUrlValue\GetUrlValueConfig.cs" />
     <Compile Include="IndentTextLogger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoveItemListRows\RemoveItemListRows.cs" />
+    <Compile Include="RemoveItemListRows\RemoveItemListRowsConfig.cs" />
     <Compile Include="UpdateDocumentType\UpdateDocumentType.cs" />
     <Compile Include="UpdateDocumentType\UpdateDocumentTypeConfig.cs" />
   </ItemGroup>
