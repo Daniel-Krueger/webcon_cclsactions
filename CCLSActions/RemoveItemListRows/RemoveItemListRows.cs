@@ -71,7 +71,7 @@ namespace CCLSActions.RemoveItemListRows
                     itemList.Rows.Remove(existingRows[detId]);
                 }
                 logger.Outdent();
-                logger.Log("Removed all item lsit rows.");
+                logger.Log("Removed all item list rows.");
             }
 
             catch (System.Exception ex)
