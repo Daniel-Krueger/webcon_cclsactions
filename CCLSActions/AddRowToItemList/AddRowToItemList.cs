@@ -14,7 +14,7 @@ namespace CCLSActions
             try
             {
                 logger.Log($"Fetching document with id '{this.Configuration.TargetConfiguration.InstanceId}'");
-                var document = WebCon.WorkFlow.SDK.Documents.DocumentsManager.GetDocumentByID(int.Parse(this.Configuration.TargetConfiguration.InstanceId), true);
+                var document = (new WebCon.WorkFlow.SDK.Documents.DocumentsManager(args.Context)).GetDocumentByID(int.Parse(this.Configuration.TargetConfiguration.InstanceId), true);
 
                 var list = document.ItemsLists.GetByID(int.Parse(Configuration.TargetConfiguration.TargetItemListId));
                 logger.Log($"Creating a new row in item list {list.DisplayName}");
@@ -54,7 +54,7 @@ namespace CCLSActions
                     logger.Log($"Adding value '{(targetValue == null ? "NULL" : targetValue)}' for column '{column.DisplayName}'");
                     newRow.Cells.GetByDbColumnName(mapping.SourceColName).SetValue(targetValue);
                 }
-                WebCon.WorkFlow.SDK.Documents.DocumentsManager.UpdateDocument(new WebCon.WorkFlow.SDK.Documents.Model.UpdateDocumentParams(document));
+                (new WebCon.WorkFlow.SDK.Documents.DocumentsManager(args.Context)).UpdateDocument(new WebCon.WorkFlow.SDK.Documents.Model.UpdateDocumentParams(document));
                 logger.Outdent();
             }
             catch (System.Exception ex)
